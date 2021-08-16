@@ -11,7 +11,7 @@
 // var - esant galimybei ⚠⚠⚠⚠ NENAUDOTI!!!! ⚠⚠⚠⚠
 // * - yra papildomu salygu su konpleksiniais kintamaisiais
 
-
+// NAMU DARBAI
 // KINTAMUJU INICIJAVIMAS
 
 // Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis

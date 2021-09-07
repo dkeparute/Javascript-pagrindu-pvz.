@@ -22,5 +22,6 @@ const c = 5;
 const d = 7;
 
 const ats2 = c > d ? 'daugiau' : 'ne daugiau';
+// in line if'as
 
 console.log(ats2);

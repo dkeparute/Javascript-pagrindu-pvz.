@@ -1,4 +1,19 @@
 function daugyba(a, b) {
+    const c = a * b;
+    return c;
+}
+console.log(daugyba(4, 5), '->', 20);
+console.log(daugyba(44, 5), '->', 220);
+console.log(daugyba(-44, -55), '->', 2420);
+console.log(daugyba(-44, 55), '->', -2420);
+console.log(daugyba(-44, 0), '->', 0);
+console.log(daugyba(0, 0), '->', 0);
+console.log(daugyba(0, 54850), '->', 0);
+console.log(daugyba(3.14, 2), '->', 6.28);
+console.log(daugyba(3, 5), '->', 15);
+
+
+function daugyba(a, b) {
     // parametru validacija
     if (typeof a !== 'number') {
         return 'Pirmasis parametras turi buti skaiciaus tipo';
@@ -48,13 +63,3 @@ console.log(daugyba(Infinity, Infinity));
 console.log(daugyba(-Infinity, 3));
 console.log(daugyba(3, -Infinity));
 console.log(daugyba(-Infinity, -Infinity));
-
-console.log(daugyba(4, 5), '->', 20);
-console.log(daugyba(44, 5), '->', 220);
-console.log(daugyba(-44, -55), '->', 2420);
-console.log(daugyba(-44, 55), '->', -2420);
-console.log(daugyba(-44, 0), '->', 0);
-console.log(daugyba(0, 0), '->', 0);
-console.log(daugyba(0, 54850), '->', 0);
-console.log(daugyba(3.14, 2), '->', 6.28);
-console.log(daugyba(3, 5), '->', 15);

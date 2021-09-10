@@ -1,3 +1,10 @@
+/*
+Funkcija pavadinimu “daugyba”:
+priima du skaičiaus tipo kintamuosius
+atskirame kintamajame įsimena sandaugos reikšmę
+gražina saudaugos rezultatą
+*/ 
+
 function daugyba(a, b) {
     const c = a * b;
     return c;
